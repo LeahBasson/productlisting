@@ -1,10 +1,11 @@
 <template>
   <nav>
+    <!-- router link says where you must go to -->
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/products">Product</router-link>
   </nav>
-  <router-view/>
+  <router-view/> <!-- Renders your data / view component -->
 </template>
 
 <style>

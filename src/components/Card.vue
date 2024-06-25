@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'CardComp',
   props: {
     msg: String
   }
